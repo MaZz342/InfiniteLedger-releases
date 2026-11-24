@@ -39,9 +39,10 @@ InfiniteLedger reads the log file the game already writes and turns it into numb
 
 ## Private by design
 
-- **Everything stays on your computer.** There is no account and nothing to sign up for.
+- **Your data stays on your computer.** There is no account and nothing to sign up for.
 - It **only reads the game's log file**. It does not touch the game's memory, inject anything or click for you.
 - Sharing prices (Cloud Sync) and sharing anonymous strategy records are **opt-in and off by default**. When you turn them on you can see exactly what is sent, and delete it again.
+- **Anonymous usage count:** once a day the app sends a random install id, the version and the channel, so the maker can see how many installs are in use. Nothing else, nothing that identifies you. You can switch it off in Settings → Community, which also deletes what was sent.
 - The local web server only answers this computer and refuses requests from web pages.
 
 ## Install
