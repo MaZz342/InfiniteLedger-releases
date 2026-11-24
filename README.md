@@ -5,8 +5,8 @@
 <h1 align="center">InfiniteLedger</h1>
 
 <p align="center">
-  <b>A local loot tracker for Torchlight Infinite.</b><br>
-  See what every map earns you, what it costs, and what you are worth, without leaving your computer.
+  <b>Loot tracker and profit calculator for Torchlight Infinite.</b><br>
+  Track your FE per hour, map costs and net worth. Free, runs on your PC, and your game data stays with you.
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## What it does
 
-InfiniteLedger reads the log file the game already writes and turns it into numbers you can use:
+InfiniteLedger is a free **Torchlight Infinite loot tracker** for Windows. It reads the log file the game already writes and turns it into numbers you can use, like **FE per hour**, profit per map and your **net worth**:
 
 - **Per map:** loot, map cost, net profit, run time and pace, compared with your average.
 - **Per session:** FE per hour, FE per map, total time, cumulative value and charts.
