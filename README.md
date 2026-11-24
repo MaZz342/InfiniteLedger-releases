@@ -69,6 +69,12 @@ The app updates itself from this page: when a new version is out it downloads in
 
 For the Tartarus Prison minigame, InfiniteLedger can frame the best move over the game window. The solver behind it is the open source [TartarusSolver](https://github.com/glcoder/TartarusSolver) by Artem Gurevich (MIT licence). The hints only read the game window and the log; **nothing is ever clicked or typed for you**. Turn it on or off on the Tartarus page.
 
+**It needs two free Microsoft components** on your computer, which many PCs already have:
+- the [.NET 9 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/9.0)
+- the [Microsoft Visual C++ Redistributable (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+
+If the hints do not start, install both and switch the hints off and on again; the Tartarus page shows a message with these links when the solver cannot start.
+
 ## Credits and licences
 
 - [TartarusSolver](https://github.com/glcoder/TartarusSolver), MIT, © 2026 Artem Gurevich.
